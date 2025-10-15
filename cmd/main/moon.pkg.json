@@ -1,9 +1,20 @@
 {
   "is-main": true,
   "import": [
-    {
-      "path": "username/mGit",
-      "alias": "lib"
+    "moonbitlang/x/fs",
+    "illusory0x0/native",
+    "moonbitlang/x/encoding"
+  ],
+  "supported-targets": [
+    "js",
+    "native"
+    ],
+    "native-stub": [
+        "git.c"
+    ],
+    "link": {
+        "native": {
+            "cc-link-flags": "-lgit2"
+        }
     }
-  ]
 }

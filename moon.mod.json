@@ -1,6 +1,10 @@
 {
   "name": "username/mGit",
   "version": "0.1.0",
+  "deps": {
+    "illusory0x0/native": "0.2.1",
+    "moonbitlang/x": "0.4.34"
+  },
   "readme": "README.mbt.md",
   "repository": "",
   "license": "Apache-2.0",
