@@ -25,7 +25,7 @@ extern "C" fn mb_git_commit(
 
 ///|
 // 推送
-#owned(username_bytes, token_bytes)
+#owned(remote_name_bytes, token_bytes)
 extern "C" fn mb_git_push(
   repo : @native.Ptr[Byte],
   remote_name_bytes : @native.Ptr[Byte],
